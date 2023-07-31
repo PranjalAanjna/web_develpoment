@@ -1,0 +1,364 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.outer{
+    padding: 150px 140px 0px 140px;
+    background-image: url("https://media.blogto.com/articles/2018290sb-reservebar.jpg?cmd=resize_then_crop&quality=70&w=2048&height=1365");
+}
+.main{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.image1{
+    padding: 0px 0px 0px 55px;
+}
+
+nav{
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5%;
+    /* position: sticky; */
+    border-bottom: 20px;
+    top: 0;
+    height: 55px;
+}
+.nav_left, .nav_right{
+    display: flex;
+    align-items: center;
+}
+.nav_left b{
+    text-align: center;
+    padding: 0px 10px 0px 5px;
+}
+.location{
+    align-items: center;
+    padding-left: 35px;
+}
+.location img{
+    width: 8px;
+    height: 12px;
+}
+
+.nav_right{
+    padding-left: 40px;
+}
+
+.search_box{
+    background :#efefef;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+    padding: 0px 15px;
+}
+.search_box img{
+    width: 22px;
+}
+.search_box input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.li{
+    list-style: none;
+    display: block;
+    width: 70px;
+}
+.li img{
+    width: 20px;
+    margin: 0 15px;
+}
+ul li b{
+    font-size: 12px;
+}
+#li1{
+    padding-left: 4px;
+}
+#li2{
+    padding-left: 8px;
+}
+#li3{
+    padding-left: 4px;
+}
+#li4{
+    padding-left: 12px;
+}
+ul{
+    padding: 0px 95px 0px 70px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.box1{
+    height: 45px;
+    padding-top: 15px;
+}
+.box1 ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.box ul li b{
+    display: flex;
+    flex-direction: column;
+}
+.box ul li b hr{
+    height: 6px ;
+}
+.box2{
+    height: 280px;
+    margin: 12px 120px 0px 100px;
+    border-radius: 10px;
+    /* width: 400px; */
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://wallpapercave.com/wp/wp3156108.jpg");
+}
+.b11{
+    width:40%;
+    height: 100%;
+    padding: 40px 0px 0px 40px;
+}
+.bold{
+    font-size: 35px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.small{
+    margin-top: 15px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.b11 button{
+    margin-top: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 15px;
+    background: none;
+    border: 2px solid white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: white;
+}
+.b22{
+    margin: 40px 0px 0px 25px;
+    border: 1px solid white;
+    width: 380px;
+    height: 190px;
+}
+.b221, .b222{
+    display: flex;
+    flex-direction: row;
+    height: 95px;
+    /* justify-content: space-between; */
+}
+.imag1,.imag2,.imag3,.imag4,.imag5,.imag6,.imag7,.imag8{
+    border: 1px solid white;
+    width: 95px;
+    align-items: end;
+    height: 95px;
+    overflow: hidden;
+}
+.imag1 img{
+    padding: 20px 0px 0px 16px;
+}
+.imag2 img{
+    padding: 10px 0px 0px 10px;
+}
+.imag3 img{
+    padding: 0px 0px 0px 5px;
+}
+.imag4 img{
+    padding: 10px 0px 0px 20px;
+}
+.imag5 img{
+    padding: 0px 1px 0px 2px;
+}
+.imag6 img{
+    padding: 10px 13px 0px 20px;
+}
+.imag7 img{
+    margin-left: -10px;
+}
+
+
+
+.box3 {
+    margin: 30px 120px 0px 100px;
+  }
+  .hot_cold {
+    align-items: center;
+    border-radius: 35px;
+    display: flex;
+    background-color: lightgrey;
+    /* justify-content: space-between; */
+    padding: 0%;
+    width: 750px;
+    height: 25px;
+  }
+  
+.product_button {
+    border-radius: 20px;
+    background-color: lightgrey;
+    border-width: 0cap;
+    font-size: 12px;
+    padding: 0%;
+    align-items: center;
+    height: 25px;
+    width:80.3%;
+    border-style: hidden;
+  }
+  #pb{
+    width: 86%;
+  }
+  
+  .product_button:hover {
+    background-color: rgb(3, 161, 88);
+    color: white;
+  }
+
+
+
+  .box4{
+    width: 800px;
+    height: 240px;
+    margin: 12px 120px 0px 100px;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.one{
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    width: 180px;
+    height: 240px;
+}
+.one1{
+    margin: 4px 4px 4px 4px;
+    width: 170px;
+    border-radius: 15px;
+    height: 170px;
+    background-color: #efefef;
+}
+.one11{
+    display: flex;
+    flex-direction: row;
+}
+.e11{
+    padding: 2px 0px 0px 8px;
+}
+.e11 button{
+    font-size: 9px;
+    border-style: none;
+    text-align: center;
+    padding: 2px 5px 2px 5px;
+    border-radius: 15px;
+    background-color: white;
+}
+.e12 img{
+    padding: 6px 0px 0px 85px ;
+}
+.image5{
+    margin-top: -30px;
+}
+.one2{
+    margin: 6px 6px 6px 6px;
+    color: rgb(54, 52, 52);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bold1{
+    font-size: 14px;
+    margin: 0px 0px 15px 0px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bold3{
+    font-size: 14px;
+    margin: 0px 0px 5px 0px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bold2{
+    padding-right: 59px;
+}
+.one2 button{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 0px 18px 0px 18px;
+    border-style: none;
+}
+.two{
+    background-color: white;
+    border-radius: 15px;
+    width: 180px;
+    height: 240px;
+    border: 1px solid whitesmoke;
+}
+.image7{
+    padding-top: 15px;
+}
+.image6{
+    margin-top: -5px;
+    margin-left: 15px;
+}
+#image9{
+    padding-left: 30px;
+    padding-top: 12px;
+}
+.image8{
+    -webkit-transform: rotate(3deg);
+    margin-top: -25px;
+    margin-left: -20px;
+}
+.image10{
+    padding-top: -15px;
+}
+.two1{
+    margin: 6px 6px 6px 6px;
+    width: 170px;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 170px;
+    background-color: #efefef;
+}
+.three{
+    background-color: white;
+    border-radius: 15px;
+    width: 180px;
+    height: 240px;
+    border: 1px solid whitesmoke;
+}
+.four{
+    background-color: white;
+    border-radius: 15px;
+    width: 180px;
+    border: 1px solid whitesmoke;
+    height: 240px;
+}
+
+
+
+  .box5{
+    width: 800px;
+    height: 240px;
+    margin: 12px 120px 30px 100px;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+}

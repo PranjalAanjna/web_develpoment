@@ -1,0 +1,294 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    border: 0px;
+    height: 99px;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    position: sticky;
+    
+}
+ hr{
+    padding-top: 0%;
+    margin: 0%;
+    height: 0.5px;
+    background-color: rgb(250, 234, 234);
+    
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+    font-size:large;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    justify-content: space-between;
+}
+.nav_left ul {
+    justify-content: space-between;
+    width: 600px;
+    padding-left: 50px;
+}
+.nav_left ul li{
+    padding: 20px 20px 20px 20px;
+}
+.logo{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.li{
+    list-style: none;
+    display: inline-block;
+} 
+.one{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 560px;
+    background-color: rgb(228, 128, 161);
+}
+.one1{
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 98px;
+    align-items: center;
+    text-align: center;
+}
+.info{
+    text-align: center;
+    font-size: 50px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: rgb(58, 55, 55);
+}
+.info1{
+    color: rgb(44, 41, 41);
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.one1 button{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    background-color: rgb(228, 128, 161);
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    color: rgb(58, 55, 55);
+    border-color: rgb(58, 55, 55);
+    font-weight: bold;
+    margin-top: 30px;
+    align-items: center;
+}
+.two{
+    margin-bottom: 32px;
+    height: 250px;
+    background-color: rgb(211, 241, 247);
+    display: flex;
+}
+.info3{
+    color: rgb(43, 41, 41);
+    margin-left: 170px;
+    align-items: center;
+    font-size:23px;
+    font-weight: bold;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.info4{
+    margin-left: 125px;
+    align-items: center;
+    font-size:18px;
+    font-weight: lighter;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.two2{
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+} 
+.two2 button{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    background-color: rgb(211, 241, 247);
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    color: rgb(58, 55, 55);
+    border-color: rgb(58, 55, 55);
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-items: center;
+}
+.three{
+    display: flex;
+    margin-bottom: 32px;
+    height: 560px;
+    background-color: rgb(129, 140, 190);
+}
+.three1{
+    margin-right: 120px;
+    margin-left: 120px;
+    align-items: center;
+    text-align: center;
+}
+.info5{
+    text-align: center;
+    font-size: 50px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.info6{
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.three1 button{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    background-color: rgb(129, 140, 190);
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    color: black;
+    border-color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-items: center;
+}
+.four{
+    display: flex;
+    margin-bottom: 32px;
+    height: 562px;
+    background-color: rgb(184, 214, 101);
+}
+.four2{
+    margin-right: 80px;
+    margin-left: 80px;
+    align-items: center;
+    text-align: center;
+}
+.four2 button{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    background-color: rgb(184, 214, 101);
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    color: rgb(58, 55, 55);
+    border-color: rgb(58, 55, 55);
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 50px;
+    align-items: center;
+}
+.five{
+    display: flex;
+    margin-bottom: 32px;
+    height: 380px;
+    background-color: rgb(184, 214, 101);
+}
+.five1{
+    align-items: center;
+    text-align: center;
+    width: 650px;
+    height: 380px;
+}
+.info7{
+    color: rgb(43, 41, 41);
+    margin-left: 120px;
+    align-items: center;
+    font-size:23px;
+    font-weight: bold;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.info8{
+    margin-left: 125px;
+    align-items: center;
+    font-size:18px;
+    font-weight: lighter;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.five1{
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+} 
+.five1 button{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    background-color: rgb(184, 214, 101);
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-width: 1px;
+    color: rgb(58, 55, 55);
+    border-color: rgb(58, 55, 55);
+    font-weight: bold;
+    margin-top: 30px;
+    /* margin-left: 10px; */
+    align-items: center;
+}
+.six{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: large;
+    text-align: center;
+    height: 120px;
+}
+.seven{display: flex;
+    height: 450px;
+    padding: 0%;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0%;
+}
+.seven1{
+    width: 150px;
+    margin-left: 40px;
+}
+.o1{
+    font-size: larger;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.o2{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: large;
+    color: rgb(155, 154, 154);
+}
+.seven2{
+    width: 180px;
+    margin-left: 25px;
+}
+.seven3{
+    width: 120px;
+    margin-left: 20px;
+}
+.seven4{
+    width: 190px;
+    margin-left: 25px;
+}
+.seven5{
+    width: 170px;
+    margin-left: 25px;
+}
